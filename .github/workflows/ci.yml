@@ -10,6 +10,10 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: docker-demo
+
     steps:
       - uses: actions/checkout@v4
 
